@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(238, 226, 226);
+    text-align: center;
+}
+
+
+.nav-item {
+margin-left: 25px;}
+
+
+img{
+    width: 60%;
+    height: auto;
+}
+
+.row.second img{
+    opacity: .8;
+}
+
+.row{
+
+    margin:100px;
+}
+
+
+
+

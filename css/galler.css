@@ -1,0 +1,53 @@
+.gconteiner ul {
+    padding:0;
+    position:relative;
+    width: 100%;
+    margin: auto;
+  }
+
+
+ 
+  .gconteiner ul li{
+
+    list-style: none;
+    float:center;
+    padding:10px 20px;
+    color:rgba(0, 0, 0, 0.445);
+    width:150px;
+    height:auto;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 5%;
+    
+  }
+  .gconteiner img{
+    width:25%;
+    height:auto;
+    margin:2%;
+    border-radius:2px;
+    opacity: .9;
+  }
+  
+  .gconteiner ul li:hover,
+  
+  .active{
+    background:rgba(182, 182, 182, 0.959);
+    color:#521ee07e;
+    cursor: context-menu;
+    
+  }
+  /*.gconteiner{
+    padding: 55px 0px;
+    position:relative;
+    padding:30px;
+    box-sizing: border-box;
+  }*/
+
+  .gcontainer img{
+    width:23%;
+    height:100px;
+    line-height:100px;
+    color:rgba(255,255,255,.5);
+    float:center;
+    margin: 10px;
+  }
+  
