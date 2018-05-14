@@ -90,13 +90,13 @@
     <div class="row gridlist">
         <div class="col-lg-12">
             <input type="button" value="Refresh Page" onClick="history.go(0)">
-           
+
 
             <hr>
 
             <section class="starlog">
                 <h1>Star Catalogue</h1>
-               
+
 
                 <div>
                     <input id="showbtn" type="button" name="answer" value="Show Submit Form">&nbsp;&nbsp;
@@ -169,40 +169,95 @@
                     <br>
                     <br>
                 </div>
-                
-        <div id="filter">
-                <fieldset>
-                    
-                    <legend>Filter</legend>
-    
-                    <form>
-                        <input id="myInput" type="text" placeholder="Search ID">
-                       
-                    </form>
-                    <br>
-                </fieldset>
-            </div>
-    
-            <div>
-                <p id="catalog">
-                    <table id="grid">
-    
-                    </table>
-                </p>
-            </div>
-    
+
+                <div id="filter">
+                    <fieldset>
+
+                        <legend>Filter</legend>
+
+                        <form>
+                            <input id="myInput" type="text" placeholder="Search ID">
+
+                        </form>
+                        <br>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <p id="catalog">
+                        <table id="grid">
+
+                        </table>
+                    </p>
+                </div>
+
         </div>
 
     </div>
+    <br>
+    <hr>
+    <br>
 
+    <div class="row">
+        <div class="col-lg-12">
+
+        </div>
+    </div>
 
 
 
     <div class="row calculations">
-        <div class="col-lg-12"></div>
+        <div class="col-lg-12">
+
+
+            <section class="focal converter">
+                <h1>Focal Calculator</h1>
+
+                <form id="focalconverter">
+                    <div class="row">
+
+                        <div class="col-lg-6" style="margin-right: 0; margin-left: 0px;" >
+                            <button id="calculator" type="button"> Calculate
+                        </div>
+
+
+                        <div class="col-lg-6"    style="margin-right: 0; margin-left: 0px;">
+                            <button id="reset" type="button">Reset
+                        </div>
+                        <div class="col-lg-6 "   style="margin-right: 0; margin-left: 0px;">
+
+                        <span>
+                            <p>Focal Length:&nbsp;</p>
+                            <input id="focal" name="focal" type="text" placeholder="Focal Length">
+                        </span>                        </div>
+
+                        <div class="col-lg-6"   style="margin-right: 0; margin-left: 0px;">
+
+                        <span>
+                            <p>Telescope diameter:&nbsp;</p>
+                            <input id="diameter" name="diam" type="text" placeholder="Telescope Diameter">
+                        </span>                        </div>
+
+
+                    </div>
+                </form>
+
+        </div>
+
+
+
+        </section>
 
     </div>
 
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <p id="outputcalc">Focal Length is:&nbsp;
+                <span id="focallength" style="color:red;"></span>
+            </p>
+        </div>
+    </div>
 
 </body>
 

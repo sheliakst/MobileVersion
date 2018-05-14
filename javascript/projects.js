@@ -56,8 +56,6 @@ $(document).ready(function () {
 
     //filters searching strings
 
-
-
     $("#myInput").keyup(function () {
 
         var searchcolumn = "ID";
@@ -78,6 +76,32 @@ $(document).ready(function () {
 
     });
 
+
+    $(".preset").click(function(){
+        var radioval = $(this).val();
+        $("#inID").val(radioval);
+
+
+
+
+
+
+
+    });
+
+
+    
+$("#calculator").click(function () {
+    calculation();
+
+});
+
+$("#reset").click(function () {
+    $('input[name=diam').val('');
+    $('input[name=focal').val('');
+    $("#focallength").html(" ");
+});
+
 });
 
 
@@ -87,17 +111,8 @@ $(document).ready(function () {
 //caclulator
 
 
-$("#reset").click(function () {
-    $('input[name=diam').val('');
-    $('input[name=focal').val('');
-    $("#focallength").html(" ");
-});
 //calculator
 
-$("#calculator").click(function () {
-    calculation();
-
-});
 
 
 
